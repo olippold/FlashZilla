@@ -13,6 +13,8 @@
 		4628BD54242F88C500895A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4628BD53242F88C500895A0B /* Assets.xcassets */; };
 		4628BD57242F88C500895A0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4628BD56242F88C500895A0B /* Preview Assets.xcassets */; };
 		4628BD5A242F88C500895A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4628BD58242F88C500895A0B /* LaunchScreen.storyboard */; };
+		4628BD62242F8D0E00895A0B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628BD61242F8D0E00895A0B /* Card.swift */; };
+		4628BD64242F8DCA00895A0B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628BD63242F8DCA00895A0B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4628BD56242F88C500895A0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4628BD59242F88C500895A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4628BD5B242F88C500895A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4628BD61242F8D0E00895A0B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4628BD63242F8DCA00895A0B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				4628BD4D242F88BF00895A0B /* AppDelegate.swift */,
 				4628BD4F242F88BF00895A0B /* SceneDelegate.swift */,
 				4628BD51242F88BF00895A0B /* ContentView.swift */,
+				4628BD61242F8D0E00895A0B /* Card.swift */,
 				4628BD53242F88C500895A0B /* Assets.xcassets */,
 				4628BD58242F88C500895A0B /* LaunchScreen.storyboard */,
 				4628BD5B242F88C500895A0B /* Info.plist */,
 				4628BD55242F88C500895A0B /* Preview Content */,
+				4628BD63242F8DCA00895A0B /* CardView.swift */,
 			);
 			path = FlashZilla;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 				4628BD4E242F88BF00895A0B /* AppDelegate.swift in Sources */,
 				4628BD50242F88BF00895A0B /* SceneDelegate.swift in Sources */,
 				4628BD52242F88BF00895A0B /* ContentView.swift in Sources */,
+				4628BD62242F8D0E00895A0B /* Card.swift in Sources */,
+				4628BD64242F8DCA00895A0B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
