@@ -15,6 +15,7 @@
 		4628BD5A242F88C500895A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4628BD58242F88C500895A0B /* LaunchScreen.storyboard */; };
 		4628BD62242F8D0E00895A0B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628BD61242F8D0E00895A0B /* Card.swift */; };
 		4628BD64242F8DCA00895A0B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628BD63242F8DCA00895A0B /* CardView.swift */; };
+		4660901B2438E7160054D5D1 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660901A2438E7160054D5D1 /* EditCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4628BD5B242F88C500895A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4628BD61242F8D0E00895A0B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4628BD63242F8DCA00895A0B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4660901A2438E7160054D5D1 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4628BD4F242F88BF00895A0B /* SceneDelegate.swift */,
 				4628BD51242F88BF00895A0B /* ContentView.swift */,
 				4628BD61242F8D0E00895A0B /* Card.swift */,
+				4660901A2438E7160054D5D1 /* EditCards.swift */,
 				4628BD53242F88C500895A0B /* Assets.xcassets */,
 				4628BD58242F88C500895A0B /* LaunchScreen.storyboard */,
 				4628BD5B242F88C500895A0B /* Info.plist */,
@@ -155,6 +158,7 @@
 				4628BD4E242F88BF00895A0B /* AppDelegate.swift in Sources */,
 				4628BD50242F88BF00895A0B /* SceneDelegate.swift in Sources */,
 				4628BD52242F88BF00895A0B /* ContentView.swift in Sources */,
+				4660901B2438E7160054D5D1 /* EditCards.swift in Sources */,
 				4628BD62242F8D0E00895A0B /* Card.swift in Sources */,
 				4628BD64242F8DCA00895A0B /* CardView.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				DEVELOPMENT_TEAM = 73MP3ATTJU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FlashZilla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +322,7 @@
 				DEVELOPMENT_TEAM = 73MP3ATTJU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FlashZilla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
